@@ -1,0 +1,3 @@
+[submodule "cranfont"]
+        path = cranfont
+        url = https://github.com/cranleighschool/cranfont.git
