@@ -25,7 +25,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.cranfont-2x {
+	font-size:2em;
+}
 .cranfont-person {
   &:before {
     content: $icon-person;
@@ -121,4 +123,5 @@
     content: $icon-full-crest;
   }
 }
+
 
