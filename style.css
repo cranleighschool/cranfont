@@ -1,29 +1,84 @@
-/*!
- *  Name: Cranfont
- *  Description: "Cranfont" - a webfont used by Cranleigh School and Cranleigh Prep School for use online.
- * 	Version: 1.0
- *	Author: Fred Bradley <frb@cranleigh.org>
- */
-/* FONT PATH
- * -------------------------- */
 @font-face {
-  font-family: 'Cranleigh';
-  src: url("font/icomoon.eot?y6hy95");
-  src: url("font/icomoon.eot?y6hy95#iefix") format("embedded-opentype"), url("font/icomoon.ttf?y6hy95") format("truetype"), url("font/icomoon.woff?y6hy95") format("woff"), url("font/icomoon.svg?y6hy95#icomoon") format("svg");
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?132owu');
+  src:  url('fonts/icomoon.eot?132owu#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?132owu') format('truetype'),
+    url('fonts/icomoon.woff?132owu') format('woff'),
+    url('fonts/icomoon.svg?132owu#icomoon') format('svg');
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
+
 .cranfont {
-  display: inline-block;
-  font: normal normal normal 14px/1 Cranleigh;
-  font-size: inherit;
-  text-rendering: auto;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+}
 
-.cranfont-2x {
-  font-size: 2em; }
+.icon-person:before {
+  content: "\e900";
+}
+.icon-ocs:before {
+  content: "\e901";
+}
+.icon-cranprep:before {
+  content: "\e902";
+}
+.icon-cranleigh:before {
+  content: "\e903";
+}
+.icon-twitter:before {
+  content: "\e904";
+}
+.icon-facebook:before {
+  content: "\e905";
+}
+.icon-quotation:before {
+  content: "\e906";
+}
+.icon-download:before {
+  content: "\e907";
+}
+.icon-image:before {
+  content: "\e908";
+}
+.icon-gallery:before {
+  content: "\e909";
+}
+.icon-geographic:before {
+  content: "\e90a";
+}
+.icon-results:before {
+  content: "\e90b";
+}
+.icon-trips:before {
+  content: "\e90c";
+}
+.icon-arrow:before {
+  content: "\e90d";
+}
+.icon-video:before {
+  content: "\e90e";
+}
+.icon-noticeboard:before {
+  content: "\e90f";
+}
+.icon-events:before {
+  content: "\e910";
+}
+.icon-news:before {
+  content: "\e911";
+}
+.icon-full-crest:before {
+  content: "\e926";
+}
 
-.cranfont-logo:before {
-  content: '\e926'; }
-
-/*# sourceMappingURL=style.css.map */
