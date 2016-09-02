@@ -13,7 +13,8 @@
 
 .cranfont {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'CranFont' !important;
+/*  font-family: 'CranFont' !important;*/
+font: normal normal normal 14/1 CranFont !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
