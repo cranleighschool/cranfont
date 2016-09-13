@@ -19,8 +19,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.cranfont-2x {
+.cranfont-2x:before {
   font-size: 2em; }
+
+.cranfont-larger:before {
+  font-size: 1.6em; }
 
 .cranfont-person:before {
   content: ""; }

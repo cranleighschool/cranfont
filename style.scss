@@ -27,7 +27,14 @@ font: normal normal normal 14/1 CranFont !important;
   -moz-osx-font-smoothing: grayscale;
 }
 .cranfont-2x {
-	font-size:2em;
+  &:before {
+    font-size:2em;
+  }
+}
+.cranfont-larger {
+	&:before {
+	font-size:1.6em;
+	}
 }
 .cranfont-person {
   &:before {
