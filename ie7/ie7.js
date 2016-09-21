@@ -10,28 +10,29 @@
 (function() {
 	function addIcon(el, entity) {
 		var html = el.innerHTML;
-		el.innerHTML = '<span style="font-family: \'icomoon\'">' + entity + '</span>' + html;
+		el.innerHTML = '<span style="font-family: \'cranfont\'">' + entity + '</span>' + html;
 	}
 	var icons = {
-		'icon-person': '&#xe900;',
-		'icon-ocs': '&#xe901;',
-		'icon-cranprep': '&#xe902;',
-		'icon-cranleigh': '&#xe903;',
-		'icon-twitter': '&#xe904;',
-		'icon-facebook': '&#xe905;',
-		'icon-quotation': '&#xe906;',
-		'icon-download': '&#xe907;',
-		'icon-image': '&#xe908;',
-		'icon-gallery': '&#xe909;',
-		'icon-geographic': '&#xe90a;',
-		'icon-results': '&#xe90b;',
-		'icon-trips': '&#xe90c;',
-		'icon-arrow': '&#xe90d;',
-		'icon-video': '&#xe90e;',
-		'icon-noticeboard': '&#xe90f;',
-		'icon-events': '&#xe910;',
-		'icon-news': '&#xe911;',
-		'icon-full-crest': '&#xe926;',
+		'cranfont-person': '&#xe900;',
+		'cranfont-ocs': '&#xe901;',
+		'cranfont-cranprep': '&#xe902;',
+		'cranfont-cranleigh': '&#xe903;',
+		'cranfont-twitter': '&#xe904;',
+		'cranfont-facebook': '&#xe905;',
+		'cranfont-quotation': '&#xe906;',
+		'cranfont-download': '&#xe907;',
+		'cranfont-image': '&#xe908;',
+		'cranfont-gallery': '&#xe909;',
+		'cranfont-geographic': '&#xe90a;',
+		'cranfont-results': '&#xe90b;',
+		'cranfont-trips': '&#xe90c;',
+		'cranfont-arrow': '&#xe90d;',
+		'cranfont-video': '&#xe90e;',
+		'cranfont-noticeboard': '&#xe90f;',
+		'cranfont-events': '&#xe910;',
+		'cranfont-news': '&#xe911;',
+		'cranfont-full-crest': '&#xe926;',
+		'cranfont-link': '&#xe912;',
 		'0': 0
 		},
 		els = document.getElementsByTagName('*'),
@@ -42,7 +43,7 @@
 			break;
 		}
 		c = el.className;
-		c = c.match(/icon-[^\s'"]+/);
+		c = c.match(/cranfont-[^\s'"]+/);
 		if (c && icons[c[0]]) {
 			addIcon(el, icons[c[0]]);
 		}

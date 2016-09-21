@@ -2,19 +2,19 @@
 
 @font-face {
   font-family: 'CranFont';
-  src:  url('#{$icomoon-font-path}/CranFont.eot?132owu');
-  src:  url('#{$icomoon-font-path}/CranFont.eot?132owu#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/CranFont.ttf?132owu') format('truetype'),
-    url('#{$icomoon-font-path}/CranFont.woff?132owu') format('woff'),
-    url('#{$icomoon-font-path}/CranFont.svg?132owu#CranFont') format('svg');
+  src:  url('#{$icomoon-font-path}/CranFont.eot?xovr15');
+  src:  url('#{$icomoon-font-path}/CranFont.eot?xovr15#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/CranFont.ttf?xovr15') format('truetype'),
+    url('#{$icomoon-font-path}/CranFont.woff?xovr15') format('woff'),
+    url('#{$icomoon-font-path}/CranFont.svg?xovr15#CranFont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 .cranfont {
   /* use !important to prevent issues with browser extensions that change fonts */
-/*  font-family: 'CranFont' !important;*/
-font: normal normal normal 14/1 CranFont !important;
+  font: normal normal normal 14/1 CranFont !important;
+  font-family: 'CranFont' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -26,6 +26,7 @@ font: normal normal normal 14/1 CranFont !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .cranfont-2x {
   &:before {
     font-size:2em;
@@ -36,100 +37,105 @@ font: normal normal normal 14/1 CranFont !important;
 	font-size:1.6em;
 	}
 }
+
 .cranfont-person {
   &:before {
-    content: $icon-person;
+    content: $cranfont-person;
   }
 }
 .cranfont-ocs {
   &:before {
-    content: $icon-ocs;
+    content: $cranfont-ocs;
   }
 }
 .cranfont-cranprep {
   &:before {
-    content: $icon-cranprep;
+    content: $cranfont-cranprep;
   }
 }
 .cranfont-cranleigh {
   &:before {
-    content: $icon-cranleigh;
+    content: $cranfont-cranleigh;
   }
 }
 .cranfont-twitter {
   &:before {
-    content: $icon-twitter;
+    content: $cranfont-twitter;
   }
 }
 .cranfont-facebook {
   &:before {
-    content: $icon-facebook;
+    content: $cranfont-facebook;
   }
 }
 .cranfont-quotation {
   &:before {
-    content: $icon-quotation;
+    content: $cranfont-quotation;
   }
 }
 .cranfont-download {
   &:before {
-    content: $icon-download;
+    content: $cranfont-download;
   }
 }
 .cranfont-image {
   &:before {
-    content: $icon-image;
+    content: $cranfont-image;
   }
 }
 .cranfont-gallery {
   &:before {
-    content: $icon-gallery;
+    content: $cranfont-gallery;
   }
 }
 .cranfont-geographic {
   &:before {
-    content: $icon-geographic;
+    content: $cranfont-geographic;
   }
 }
 .cranfont-results {
   &:before {
-    content: $icon-results;
+    content: $cranfont-results;
   }
 }
 .cranfont-trips {
   &:before {
-    content: $icon-trips;
+    content: $cranfont-trips;
   }
 }
 .cranfont-arrow {
   &:before {
-    content: $icon-arrow;
+    content: $cranfont-arrow;
   }
 }
 .cranfont-video {
   &:before {
-    content: $icon-video;
+    content: $cranfont-video;
   }
 }
 .cranfont-noticeboard {
   &:before {
-    content: $icon-noticeboard;
+    content: $cranfont-noticeboard;
   }
 }
 .cranfont-events {
   &:before {
-    content: $icon-events;
+    content: $cranfont-events;
   }
 }
 .cranfont-news {
   &:before {
-    content: $icon-news;
+    content: $cranfont-news;
   }
 }
 .cranfont-full-crest {
   &:before {
-    content: $icon-full-crest;
+    content: $cranfont-full-crest;
   }
 }
-
+.cranfont-link {
+  &:before {
+    content: $cranfont-link;
+  }
+}
 

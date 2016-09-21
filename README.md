@@ -2,6 +2,9 @@
 Cranfont is a web font designed to allow us to use Cranleigh Logos as icons on our websites.
 
 ##Changelog
+### 1.3
+* Added the generic link icon
+
 ### 1.2
 * Updated code from icomoon
 * Added new icons from Karin
