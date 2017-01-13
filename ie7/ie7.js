@@ -13,6 +13,23 @@
 		el.innerHTML = '<span style="font-family: \'cranfont\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'cranfont-training-2': '&#xe913;',
+		'cranfont-training-1': '&#xe914;',
+		'cranfont-sport-desk': '&#xe915;',
+		'cranfont-conferences': '&#xe916;',
+		'cranfont-policies': '&#xe917;',
+		'cranfont-learning-blog': '&#xe91a;',
+		'cranfont-faq-s': '&#xe91b;',
+		'cranfont-departments': '&#xe91c;',
+		'cranfont-cards': '&#xe91d;',
+		'cranfont-sports': '&#xe91e;',
+		'cranfont-notices': '&#xe91f;',
+		'cranfont-headmasters-blog': '&#xe920;',
+		'cranfont-activities': '&#xe921;',
+		'cranfont-jobs': '&#xe922;',
+		'cranfont-pages': '&#xe923;',
+		'cranfont-news': '&#xe924;',
+		'cranfont-training-22': '&#xe925;',
 		'cranfont-person': '&#xe900;',
 		'cranfont-ocs': '&#xe901;',
 		'cranfont-cranprep': '&#xe902;',
@@ -30,7 +47,7 @@
 		'cranfont-video': '&#xe90e;',
 		'cranfont-noticeboard': '&#xe90f;',
 		'cranfont-events': '&#xe910;',
-		'cranfont-news': '&#xe911;',
+		'cranfont-news2': '&#xe911;',
 		'cranfont-full-crest': '&#xe926;',
 		'cranfont-link': '&#xe912;',
 		'0': 0
