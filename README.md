@@ -26,4 +26,3 @@ Referenceing an icon is quite similar to how <a href="http://fontawesome.io">Fon
 If you have any questions please contact <a href="http://twitter.com/fredbradley">Fred</a>, <a href="http://www.cranleigh.org">Cranleigh</a>'s Web Developer.
 
 
-
