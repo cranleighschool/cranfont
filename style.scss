@@ -1,20 +1,19 @@
 @import "variables";
 
 @font-face {
-  font-family: 'CranFont';
-  src:  url('#{$icomoon-font-path}/CranFont.eot?xovr15');
-  src:  url('#{$icomoon-font-path}/CranFont.eot?xovr15#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/CranFont.ttf?xovr15') format('truetype'),
-    url('#{$icomoon-font-path}/CranFont.woff?xovr15') format('woff'),
-    url('#{$icomoon-font-path}/CranFont.svg?xovr15#CranFont') format('svg');
+  font-family: 'cranfont';
+  src:  url('#{$icomoon-font-path}/cranfont.eot?th2otg');
+  src:  url('#{$icomoon-font-path}/cranfont.eot?th2otg#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/cranfont.ttf?th2otg') format('truetype'),
+    url('#{$icomoon-font-path}/cranfont.woff?th2otg') format('woff'),
+    url('#{$icomoon-font-path}/cranfont.svg?th2otg#cranfont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-.cranfont {
+i {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font: normal normal normal 14/1 CranFont !important;
-  font-family: 'CranFont' !important;
+  font-family: 'cranfont' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -27,17 +26,106 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.cranfont-2x {
+.cranfont-training-2 {
   &:before {
-    font-size:2em;
+    content: $cranfont-training-2;
   }
 }
-.cranfont-larger {
-	&:before {
-	font-size:1.6em;
-	}
+.cranfont-training-1 {
+  &:before {
+    content: $cranfont-training-1;
+  }
 }
-
+.cranfont-sport-desk {
+  &:before {
+    content: $cranfont-sport-desk;
+  }
+}
+.cranfont-conferences {
+  &:before {
+    content: $cranfont-conferences;
+  }
+}
+.cranfont-policies .path1 {
+  &:before {
+    content: $cranfont-policies-path1;  
+    color: rgb(4, 5, 4);
+  }
+}
+.cranfont-policies .path2 {
+  &:before {
+    content: $cranfont-policies-path2;  
+    margin-left: -1em;  
+    color: rgb(4, 5, 4);
+  }
+}
+.cranfont-policies .path3 {
+  &:before {
+    content: $cranfont-policies-path3;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.cranfont-learning-blog {
+  &:before {
+    content: $cranfont-learning-blog;
+  }
+}
+.cranfont-faq-s {
+  &:before {
+    content: $cranfont-faq-s;
+  }
+}
+.cranfont-departments {
+  &:before {
+    content: $cranfont-departments;
+  }
+}
+.cranfont-cards {
+  &:before {
+    content: $cranfont-cards;
+  }
+}
+.cranfont-sports {
+  &:before {
+    content: $cranfont-sports;
+  }
+}
+.cranfont-notices {
+  &:before {
+    content: $cranfont-notices;
+  }
+}
+.cranfont-headmasters-blog {
+  &:before {
+    content: $cranfont-headmasters-blog;
+  }
+}
+.cranfont-activities {
+  &:before {
+    content: $cranfont-activities;
+  }
+}
+.cranfont-jobs {
+  &:before {
+    content: $cranfont-jobs;
+  }
+}
+.cranfont-pages {
+  &:before {
+    content: $cranfont-pages;
+  }
+}
+.cranfont-news {
+  &:before {
+    content: $cranfont-news;
+  }
+}
+.cranfont-training-22 {
+  &:before {
+    content: $cranfont-training-22;
+  }
+}
 .cranfont-person {
   &:before {
     content: $cranfont-person;
@@ -123,9 +211,9 @@
     content: $cranfont-events;
   }
 }
-.cranfont-news {
+.cranfont-news2 {
   &:before {
-    content: $cranfont-news;
+    content: $cranfont-news2;
   }
 }
 .cranfont-full-crest {

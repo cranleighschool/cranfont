@@ -1,88 +1,149 @@
-@charset "UTF-8";
 @font-face {
-  font-family: 'CranFont';
-  src: url("fonts/CranFont.eot?xovr15");
-  src: url("fonts/CranFont.eot?xovr15#iefix") format("embedded-opentype"), url("fonts/CranFont.ttf?xovr15") format("truetype"), url("fonts/CranFont.woff?xovr15") format("woff"), url("fonts/CranFont.svg?xovr15#CranFont") format("svg");
+  font-family: 'cranfont';
+  src:  url('fonts/cranfont.eot?th2otg');
+  src:  url('fonts/cranfont.eot?th2otg#iefix') format('embedded-opentype'),
+    url('fonts/cranfont.ttf?th2otg') format('truetype'),
+    url('fonts/cranfont.woff?th2otg') format('woff'),
+    url('fonts/cranfont.svg?th2otg#cranfont') format('svg');
   font-weight: normal;
-  font-style: normal; }
-.cranfont {
+  font-style: normal;
+}
+
+i {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font: normal normal normal 14/1 CranFont !important;
-  font-family: 'CranFont' !important;
+  font-family: 'cranfont' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+}
 
-.cranfont-2x:before {
-  font-size: 2em; }
-
-.cranfont-larger:before {
-  font-size: 1.6em; }
-
-.cranfont-person:before {
-  content: ""; }
-
-.cranfont-ocs:before {
-  content: ""; }
-
-.cranfont-cranprep:before {
-  content: ""; }
-
-.cranfont-cranleigh:before {
-  content: ""; }
-
-.cranfont-twitter:before {
-  content: ""; }
-
-.cranfont-facebook:before {
-  content: ""; }
-
-.cranfont-quotation:before {
-  content: ""; }
-
-.cranfont-download:before {
-  content: ""; }
-
-.cranfont-image:before {
-  content: ""; }
-
-.cranfont-gallery:before {
-  content: ""; }
-
-.cranfont-geographic:before {
-  content: ""; }
-
-.cranfont-results:before {
-  content: ""; }
-
-.cranfont-trips:before {
-  content: ""; }
-
-.cranfont-arrow:before {
-  content: ""; }
-
-.cranfont-video:before {
-  content: ""; }
-
-.cranfont-noticeboard:before {
-  content: ""; }
-
-.cranfont-events:before {
-  content: ""; }
-
+.cranfont-training-2:before {
+  content: "\e913";
+}
+.cranfont-training-1:before {
+  content: "\e914";
+}
+.cranfont-sport-desk:before {
+  content: "\e915";
+}
+.cranfont-conferences:before {
+  content: "\e916";
+}
+.cranfont-policies .path1:before {
+  content: "\e917";
+  color: rgb(4, 5, 4);
+}
+.cranfont-policies .path2:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(4, 5, 4);
+}
+.cranfont-policies .path3:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.cranfont-learning-blog:before {
+  content: "\e91a";
+}
+.cranfont-faq-s:before {
+  content: "\e91b";
+}
+.cranfont-departments:before {
+  content: "\e91c";
+}
+.cranfont-cards:before {
+  content: "\e91d";
+}
+.cranfont-sports:before {
+  content: "\e91e";
+}
+.cranfont-notices:before {
+  content: "\e91f";
+}
+.cranfont-headmasters-blog:before {
+  content: "\e920";
+}
+.cranfont-activities:before {
+  content: "\e921";
+}
+.cranfont-jobs:before {
+  content: "\e922";
+}
+.cranfont-pages:before {
+  content: "\e923";
+}
 .cranfont-news:before {
-  content: ""; }
-
+  content: "\e924";
+}
+.cranfont-training-22:before {
+  content: "\e925";
+}
+.cranfont-person:before {
+  content: "\e900";
+}
+.cranfont-ocs:before {
+  content: "\e901";
+}
+.cranfont-cranprep:before {
+  content: "\e902";
+}
+.cranfont-cranleigh:before {
+  content: "\e903";
+}
+.cranfont-twitter:before {
+  content: "\e904";
+}
+.cranfont-facebook:before {
+  content: "\e905";
+}
+.cranfont-quotation:before {
+  content: "\e906";
+}
+.cranfont-download:before {
+  content: "\e907";
+}
+.cranfont-image:before {
+  content: "\e908";
+}
+.cranfont-gallery:before {
+  content: "\e909";
+}
+.cranfont-geographic:before {
+  content: "\e90a";
+}
+.cranfont-results:before {
+  content: "\e90b";
+}
+.cranfont-trips:before {
+  content: "\e90c";
+}
+.cranfont-arrow:before {
+  content: "\e90d";
+}
+.cranfont-video:before {
+  content: "\e90e";
+}
+.cranfont-noticeboard:before {
+  content: "\e90f";
+}
+.cranfont-events:before {
+  content: "\e910";
+}
+.cranfont-news2:before {
+  content: "\e911";
+}
 .cranfont-full-crest:before {
-  content: ""; }
-
+  content: "\e926";
+}
 .cranfont-link:before {
-  content: ""; }
+  content: "\e912";
+}
 
-/*# sourceMappingURL=style.css.map */
