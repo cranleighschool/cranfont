@@ -5,7 +5,7 @@
   src: url("fonts/Cranfont.eot?th2otg#iefix") format("embedded-opentype"), url("fonts/CranFont.ttf?th2otg") format("truetype"), url("fonts/CranFont.woff?th2otg") format("woff"), url("fonts/CranFont.svg?th2otg#CranFont") format("svg");
   font-weight: normal;
   font-style: normal; }
-i {
+i.cranfont {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'cranfont' !important;
   speak: none;
